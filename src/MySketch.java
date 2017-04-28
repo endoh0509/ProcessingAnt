@@ -1,7 +1,5 @@
 import processing.core.*;
 
-import processing.video.*;
-
 public class MySketch extends PApplet {
 
 	PImage img;
