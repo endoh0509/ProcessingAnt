@@ -1,6 +1,10 @@
-import processing.core.PApplet;
+import processing.core.*;
+
+import processing.video.*;
 
 public class MySketch extends PApplet {
+
+	PImage img;
 
 	@Override
 	public void settings() {
@@ -9,12 +13,13 @@ public class MySketch extends PApplet {
 
 	@Override
 	public void setup() {
-		background(100);
+		background(255);
+		img = loadImage("p5logo.png");
 	}
 
 	@Override
 	public void draw() {
-		ellipse(mouseX, mouseY, 100, 100);
+		image(img, 0, 0, width, height);
 	}
 
 	@Override
@@ -22,7 +27,6 @@ public class MySketch extends PApplet {
 	}
 
 	public static void main(String[] args) {
-		System.out.println("class name: " + MySketch.class.getName());
 		PApplet.main(MySketch.class.getName());
 	}
 }
