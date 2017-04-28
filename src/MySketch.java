@@ -20,10 +20,6 @@ public class MySketch extends PApplet {
 		image(img, 0, 0, width, height);
 	}
 
-	@Override
-	public void mousePressed(){
-	}
-
 	public static void main(String[] args) {
 		PApplet.main(MySketch.class.getName());
 	}

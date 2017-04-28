@@ -14,11 +14,11 @@
     </path>
 
     <target name="clear">
-        <delete dir="build"/>
+        <delete dir="${build}"/>
     </target>
 
     <target name="build">
-        <mkdir dir="build"/>
+        <mkdir dir="${build}"/>
         <javac srcdir="${src}" destdir="${build}" classpathref="build.lib"
                encoding="UTF-8"
                source="1.8"

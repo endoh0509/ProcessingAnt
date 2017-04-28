@@ -10,12 +10,6 @@ Many documents for using Processing with Eclipse, IntelliJ, and other IDEs are p
 However, they are not common to each IDEs.
 Using Ant can develop with many IDEs.
 
-<!--
-ProcessingをEclipseやIntelliJ、その他のIDEで使うためのドキュメントは多く掲載されている。
-しかし、それらはそれぞれのIDEに共通の方法ではない。
-Antを使うことで多くのIDEで開発することができる
--->
-
 ## Usage
 
 ### 1. Download Repository
@@ -28,7 +22,7 @@ $ cd ProcessingAnt
 
 ```
 ...
-<property name="p5core" location="path/to/core.jar"/>
+<property name="p5core" location="path/to/core_dir"/>
 <property name="p5dir" location="path/to/processing_dir"/>
 ...
 ```
