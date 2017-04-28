@@ -26,8 +26,7 @@ $ cd ProcessingAnt
 <property name="p5dir" location="path/to/processing_dir"/>
 ...
 ```
-
-Please write the path of your core.jar in p5core.  
+Please write the path of the directory containing core.jar to p5core.
 e.g.  
 `/Applications/Processing.app/Contents/Java/core/library`  
 Please write the path of your Processing Directory in p5dir.  
