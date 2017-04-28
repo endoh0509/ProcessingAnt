@@ -4,11 +4,8 @@
     <property name="src" location="src"/>
     <property name="build" location="build"/>
 
-    <property name="p5core" location="/Applications/Processing.app/Contents/Java/core/library"/>
-    <property name="p5dir" location="/Users/katsuya/Documents/Processing"/>
-
-    <!--<property name="p5core" location="path/to/core.jar"/>-->
-    <!--<property name="p5dir" location="path/to/processing_dir"/>-->
+    <property name="p5core" location="path/to/core.jar"/>
+    <property name="p5dir" location="path/to/processing_dir"/>
 
     <path id="build.lib">
         <fileset dir="${p5core}" includes="core.jar"/>
